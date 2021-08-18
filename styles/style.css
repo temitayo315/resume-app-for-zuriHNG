@@ -1,0 +1,104 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url('images/bg.jpeg');
+	font-family: Arial, san-serif, helvetica;
+}
+
+nav{
+	height: 120px;
+	width: 100%;
+	background-color: #ffde09;
+	margin-bottom: 40px;
+}
+
+.intro{
+	text-align: center;
+	font-family: Helvetica;
+	margin-bottom:50px;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+#profile_img{
+	height: 150px;
+	width: 150px;
+	border-radius: 100%;
+	align-self: center;
+	margin-top: 20px;
+
+}
+
+ul{
+	line-height: 1.8em;
+}
+
+.card:hover{
+	background-color: #ffde09;
+	transition: background 1s ease-in;
+}
+
+.card-title{
+	color: #33e;
+}
+
+.experience{
+	margin: 20px;
+}
+
+.card-text > span {
+	font-weight: bold;
+}
+.mx-auto{
+	text-align: center;
+}
+
+.action{
+	height: 100px;
+	margin-top: 80px;
+	box-sizing: border-box;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: center;
+	background-color: #33e;
+	color: #fff;
+	padding-top: 30px;
+	align-content: space-between;
+
+}
+
+.btn-action{
+	height: 40px;
+	text-align: center;
+	color: #fff;
+	border-radius: 10px;
+	background-color: #ff9900;
+	font-size: 16px;
+	margin-left: 15px;
+	font-family: serif;
+}
+
+.btn-action:hover{
+	background: transparent;
+	transition: background 0.3s ease-in-out;
+	color: #fff;
+	border: 1px solid black;
+}
+
+.footer{
+	text-align: center;
+	padding-top: 30px;
+	font-size: 12px;
+}
+
+footer{
+	background-color: #333;
+	height: 100px;
+	width: 100%;
+	color: #fff;
+	margin-top: 80px;
+}
