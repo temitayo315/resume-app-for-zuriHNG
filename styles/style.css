@@ -97,8 +97,16 @@ ul{
 
 footer{
 	background-color: #333;
-	height: 100px;
+	height: auto;
 	width: 100%;
 	color: #fff;
 	margin-top: 80px;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+
+footer img{
+	margin: 20px;
+	justify-content: center;
 }
