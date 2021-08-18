@@ -1,14 +1,5 @@
 <?php
 
-$fullname = "AYANDA TEMITAYO";
+include "index.html";
 
- ?>
- <!DOCTYPE html>
- <html>
- <head>
- 	<title>My Full Name</title>
- </head>
- <body>
- 		<h1>My name is: <?php echo $fullnme; ?></h1>
- </body>
- </html>
+?>
